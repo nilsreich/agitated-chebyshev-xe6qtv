@@ -11,7 +11,7 @@ const Layout: FC<Props> = ({ children }) => {
       <head>
         <title>Next.js</title>
       </head>
-      <body>{children}</body>
+      <body className="dark:bg-black bg-white text-black dark:text-white">{children}</body>
     </html>
   );
 };
