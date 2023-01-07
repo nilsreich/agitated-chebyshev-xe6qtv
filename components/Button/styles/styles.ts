@@ -15,8 +15,12 @@ export const buttonStyles = cva("button", {
         "border-gray-400",
         "hover:bg-gray-100",
       ],
+      none:[
+        ''
+      ]
     },
     size: {
+      none: [],
       small: ["text-sm", "py-1", "px-2"],
       medium: ["text-base", "py-2", "px-4"],
     },
@@ -25,7 +29,7 @@ export const buttonStyles = cva("button", {
     { intent: "primary", size: "medium", className: "uppercase" },
   ],
   defaultVariants: {
-    intent: "primary",
-    size: "medium",
+    intent: "none",
+    size: "none",
   },
 });
